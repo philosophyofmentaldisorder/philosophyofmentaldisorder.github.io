@@ -38,6 +38,7 @@ body {
 	font-style:normal;
 	font-weight:normal;
 	color:#111;
+	background-color: #fefefe;
 	margin:0;
 	padding:0;
 	text-rendering:optimizeLegibility;
@@ -52,7 +53,7 @@ a:hover {-webkit-transition-timing-function:ease-in-out;-webkit-transition-durat
 .c_minor {
 	font-size: 20px;
 	text-align: center;
-	font-weight: 400;
+	font-weight: 500;
 	color:#111;
 	-webkit-font-smoothing:antialiased;
 }
@@ -117,47 +118,46 @@ span {
 }
 
 h1 {
-	font-family:"HelveticaNeue-CondensedBold","Helvetic Neue Condensed Bold","HelveticaNeue-BoldCondensed","Helvetica Neue Bold Condensed","Helvetica Neue","Arial Narrow","Arial",sans-serif;
-	font-weight:600;
-	font-stretch:condensed;
-	font-size:34px;
+	font-family: "Helvetica Neue","Arial Narrow","Arial",sans-serif;
+	font-weight:500;
+	font-size:24px;
 }
 
 h2 {
-	font-family:"HelveticaNeue-CondensedBold","Helvetic Neue Condensed Bold","HelveticaNeue-BoldCondensed","Helvetica Neue Bold Condensed","Helvetica Neue","Arial Narrow","Arial",sans-serif;
-	font-weight:600;
-	font-stretch:condensed;
-	font-size:28px;
+	font-family:"Helvetica Neue","Arial Narrow","Arial",sans-serif;
+	font-weight:500;
+	font-size:22px;
 	/*background:red;*/
 }
 
 h3 {
-	font-family:"HelveticaNeue-CondensedBold","Helvetic Neue Condensed Bold","HelveticaNeue-BoldCondensed","Helvetica Neue Bold Condensed","Helvetica Neue","Arial Narrow","Arial",sans-serif;
-	font-weight:600;
-	font-stretch:condensed;
-	font-size:24px
+	font-family:"Helvetica Neue","Arial Narrow","Arial",sans-serif;
+	font-weight:500;
+	font-size:20px
 }
 
 h4 {
-	font-family:"HelveticaNeue-CondensedBold","Helvetic Neue Condensed Bold","HelveticaNeue-BoldCondensed","Helvetica Neue Bold Condensed","Helvetica Neue","Arial Narrow","Arial",sans-serif;
-	font-weight:600;
-	font-stretch:condensed;
-	font-size:22px
+	font-family:"Helvetica Neue","Arial Narrow","Arial",sans-serif;
+	font-weight:500;
+	font-size:18px
 }
 
 h5 {
-	font-family:"Gentium",Georgia,Palatino,serif;
-	font-size:30px;
-	font-style:italic;
-	font-weight:normal;
-	color:#222
+	font-family:"Helvetica Neue","Arial Narrow","Arial", sans-serif;
+	font-size:16px;
+	font-weight: 500;
+	color:#222;
 }
 
 h6 {
-	font-family:"HelveticaNeue-CondensedBold","Helvetic Neue Condensed Bold","HelveticaNeue-BoldCondensed","Helvetica Neue Bold Condensed","Helvetica Neue","Arial Narrow","Arial",sans-serif;
-	font-weight:600;
-	font-stretch:condensed;
-	font-size:17px
+	font-family:"Helvetica Neue","Arial Narrow","Arial",sans-serif;
+	font-weight:500;
+	font-size:14px
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: .5em auto;
+	text-align: center;
 }
 
 p {
@@ -279,7 +279,7 @@ sup:hover,sub:hover,a.footnote:hover {
 }
 
 ul {
-	margin:0 0 1.5em;
+	margin:0 0 1.5em 1em;
 	padding:0;
 }
 
@@ -334,7 +334,7 @@ th {
 
 #header {
 	font-family:"HelveticaNeue-UltraLight","Helvetica Neue Ultra Light","HelveticaNeue-Light","Helvetica Neue Light","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight:400;
+	font-weight:500;
 	font-size:34px;
 	line-height:1.45;
 	/* color:#fff; */
@@ -373,6 +373,19 @@ th {
 	margin-left: 10px; 
 	font-size: 90%;
 	margin-top: -.5em;
+}
+
+.one {
+	list-style: none;
+}
+
+ul.ind {
+	margin-left: 25px;
+}
+
+ul.one {
+	list-style: none;
+	margin-left: 10px;
 }
 
 .i {
